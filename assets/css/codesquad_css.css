@@ -296,6 +296,10 @@ ul li ul li {
 	cursor: pointer;
 }
 
+.funderCompanies div {
+	margin: 20px inherit;
+}
+
 h1 {
 	color: black;
 	font-size: xx-large;
@@ -459,8 +463,7 @@ img {
 	display: inline;
 }
 
-.graduateCompanies div,
-.funderCompanies div {
+.graduateCompanies div {
 	margin: 15px 0;
 }
 
