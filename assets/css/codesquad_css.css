@@ -734,7 +734,6 @@ select {
 	width: 80%;
 }
 
-/* Mobile phones */
 @media only screen and (max-width: 700px) {
 	.calloutTxt {
 		width: 100%;
