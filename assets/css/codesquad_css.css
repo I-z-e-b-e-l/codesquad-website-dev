@@ -477,7 +477,7 @@ img {
 }
 
 .graduateCompanies div {
-	margin: 15px 0;
+	margin: 15px 0 0 0;
 }
 
 .momentumBak {
@@ -864,5 +864,10 @@ select {
 	.navbar-right li a {
 		padding: 10px;
 		font-size: small;
+	}
+}
+@media (max-width:450px) {
+	.rapid7logo {
+		width: 70%;
 	}
 }
