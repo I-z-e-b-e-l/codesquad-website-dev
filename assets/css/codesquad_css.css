@@ -1016,7 +1016,8 @@ select {
 }
 
 .ul-2-column li {
-	width: fit-content;
+	/* width: fit-content; */
+	width: max-content;
 }
 
 .ul-2-column li {
@@ -1107,7 +1108,8 @@ select {
 	flex-direction: column;
 	color: var(--dark-grey);
 	max-width: 30%;
-	width: fit-content;
+	/* width: fit-content; */
+	width: max-content;
 }
 .container-three-section ul {
 	list-style-type: none;
@@ -1243,16 +1245,15 @@ select {
 
 .img-half-screen-vertical {
 	width: 45%;
-	/* padding-top: 10px; */
 	background-color: var(--red);
 	margin-top: 20px;
-	height: fit-content;
+	/* height: fit-content; */
+	height: max-content;
 }
 
 .img-half-screen-vertical img {
 	width: 100%;
 	height: auto;
-	/* padding-top: 10px; */
 	opacity: 0.56;
 }
 
@@ -1340,6 +1341,7 @@ select {
 	backface-visibility: hidden;
 	background-color: var(--white);
 	box-shadow: 5px 10px 18px var(--grey);
+    visibility: visible;
 }
 
 .container-tool-individual-front img {
@@ -1377,6 +1379,7 @@ select {
 	padding: 5px 10px 0 10px;
 	transform: rotateY(180deg);
   	transform: rotateX(-180deg);
+    visibility: hidden;
 }
 
 .container-tool-individual-back button {
@@ -1386,6 +1389,10 @@ select {
 
 .container-tool-individual.is-flipped {
 	transform: rotateX(-180deg);
+}
+
+.container-tool-individual.is-flipped .container-tool-individual-back {
+    visibility: visible;
 }
 
 .container-tool-individual.is-flipped .container-tool-individual-front {
@@ -1436,6 +1443,10 @@ select {
 	font-size: 1.7rem;
 	font-style: italic;
 	padding: 10px 0 0 0;
+}
+
+footer {
+	margin-top: -10px;
 }
   
 /* The actual timeline (the vertical ruler) */
