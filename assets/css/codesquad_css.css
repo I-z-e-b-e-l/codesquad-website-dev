@@ -1,3 +1,12 @@
+:root {
+    --red: #cb3524;
+	--light-grey: #F0F0F0;
+    --grey: #A0A09E;
+    --dark-grey: #343434;
+    --white: #ffffff;
+    --black: #000000;  
+}
+
 html {
 	padding: 0;
 	margin: 0;
@@ -870,4 +879,1022 @@ select {
 	.rapid7logo {
 		width: 70%;
 	}
+}
+
+
+/* New For Students Page Styling */
+.container-banner {
+	/* background-color: var(--red); */
+	/* background-color: darkred; */
+	background-color: var(--dark-grey);
+}
+
+.img-banner {
+	/* opacity: 0.56; */
+	opacity: 0.3;
+}
+
+.page-apply {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.text-shadow-white {
+	text-shadow: 2px 1px var(--white);
+}
+
+.text-shadow-grey {
+	text-shadow: 2px 1px var(--light-grey);
+}
+
+.text-italics {
+	font-style: italic;
+}
+
+.text-color-red {
+	color: var(--red);
+}
+
+.font-weight-bold {
+	font-weight: bold;
+}
+
+.span-time {
+	font-size: 1.2rem;
+	margin: 0;
+	padding: 0;
+}
+
+.background-light-grey {
+	background-color: var(--light-grey);
+}
+
+.background-grey {
+	background-color: var(--grey);
+}
+
+.page-apply h1 {
+	margin: unset;
+	color: var(--red);
+	text-decoration: underline;
+	text-underline-position: under;
+	text-decoration-color: var(--red);
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.page-apply h2 {
+	text-transform: none;
+	font-size: 2.9rem;
+	margin: 40px 0 0 0;
+}
+
+.page-apply h3 {
+	text-transform: revert;
+	font-size: 2.2rem;
+	font-weight: bold;
+	margin: 10px 0;
+	text-decoration: underline;
+	text-decoration-color: var(--red);
+	text-decoration-thickness: 2px;
+    text-underline-position: under;
+	line-height: 1.3;
+}
+
+.page-apply h4 {
+	text-transform: revert;
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 0 0 7px 0;
+	padding: 0;
+	text-decoration: underline;
+	text-decoration-color: var(--red);
+	text-decoration-thickness: 2px;
+    text-underline-position: under;
+}
+
+.page-apply h5 {
+	text-decoration: underline;
+	text-decoration-color: var(--red);
+	text-decoration-thickness: 2px;
+    text-underline-position: under;
+}
+
+.page-apply h6 {
+	font-size: 2rem;
+}
+
+.page-apply a:link,
+.page-apply a:visited {
+	color: var(--red);
+	text-decoration: underline;
+	text-decoration-color: var(--dark-grey);
+	text-decoration-thickness: 2px;
+}
+
+.page-apply a:hover,
+.page-apply a:active {
+	color: var(--dark-grey);
+	text-decoration: underline;
+	text-decoration-color: var(--red);
+	text-decoration-thickness: 2px;
+}
+
+.page-apply p {
+	line-height: 1.52;
+}
+
+.ul-3-column {
+	column-count: 3;
+}
+
+.ul-2-column {
+	column-count: 2;
+	column-gap: 20px;
+}
+
+.ul-2-column li {
+	/* width: fit-content; */
+	width: max-content;
+}
+
+.ul-2-column li {
+	margin-right: 2px;
+} 
+
+.ul-3-column li {
+	margin-right: 10px;
+} 
+
+.border-bottom-red {
+	border-bottom: 2px solid var(--red);
+}
+
+.border-top-red {
+	border-top: 2px solid var(--red);
+}
+
+.border-top-grey {
+	border-top: 1px solid var(--grey);
+}
+
+.page-apply li {
+	padding-top: 2px;
+}
+
+.text-underline {
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 1px) and (max-width: 315px) {
+	.mobile-hide {
+		display: none;
+	}
+}
+
+/* Other spots on the website change the font-size at smaller screen sizes. This is a temporary fix until we can verify that fixing this for the whole site doesn't cause any unintended problems. */
+@media screen and (min-width: 1px) and (max-width: 700px) {
+	.page-apply p,
+	.page-apply li {
+		font-size: medium;
+	}
+
+	.page-apply h1 {
+		font-size: xx-large;
+	}
+}
+
+/* Styling For Students Page */
+.container-section {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 0 0 10px 0;
+	align-items: center;
+}
+
+/* Container for the headline for each section */
+.container-head {
+	border-bottom: 2px solid var(--red);
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 40px 5px 40px;
+	box-sizing: border-box;
+}
+
+/* container for extra text in the headline that's a bit smaller than the actual headline */
+.container-head span {
+	font-size: 2rem;
+	margin: 40px 0 0 0;
+}
+
+/* Container for the three columns */
+.container-three-sections {
+	padding: 5px 40px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100vw;
+	flex-wrap: wrap;
+}
+
+.container-three-section {
+	display: flex;
+	flex-direction: column;
+	color: var(--dark-grey);
+	max-width: 30%;
+	/* width: fit-content; */
+	width: max-content;
+}
+.container-three-section ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.container-three-section.display-list-bullet li {
+	list-style-type: disc;
+}
+
+.container-three-section.display-list-bullet ul {
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+.container-form-apply {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.container-form-head {
+	padding: 5px 40px;
+}
+
+.container-form-head h1 {
+	color: var(--red);
+	text-align: center;
+}
+
+.link-button-apply {
+	font-size: 3rem;
+	height: fit-content;
+	margin: 20px auto;
+	align-self: center;
+}	
+
+.link-button-apply a:link,
+.link-button-apply a:visited {
+	box-sizing: border-box;
+	text-decoration: none;
+	padding: 10px;
+	border: 2px solid var(--dark-grey);
+	background-color: var(--red);
+	color: var(--white);	
+}
+
+.link-button-apply a:hover,
+.link-button-apply a:active {
+	border: 2px solid var(--red);
+	background-color: var(--white);
+	color: var(--red);	
+}
+
+.container-one-head {
+	width: 100%;
+	border-bottom: 2px solid var(--red);
+	padding: 0 40px 5px 40px;
+}
+
+.container-one-section {
+	width: 100%;
+	padding: 5px 40px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
+
+.container-two-sections {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	margin: 10px 0;
+	padding: 5px 40px;
+	box-sizing: border-box;
+}
+
+.container-process-row {
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-bottom: 10px;
+}
+
+.process-step {
+	font-size: 3rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 7%;
+	min-width: fit-content;
+	margin-right: 10px;
+}
+
+.process-step-next {
+	font-size: 3rem;
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 5px;
+	align-items: center;
+	width: 5%;
+	min-width: fit-content;
+	margin-right: 10px;
+}
+
+.process-content {
+	align-self: center;
+	width: 90%;
+	padding: 5px 0;
+}
+
+.process-date {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 10%;
+}
+
+.container-section-50 {
+	width: 45%;
+}
+
+.container-section-process {
+	width: 45%;
+}
+
+.container-section- {
+	width: 45%;
+}
+
+.img-half-screen-vertical {
+	width: 45%;
+	background-color: var(--red);
+	margin-top: 20px;
+	/* height: fit-content; */
+	height: max-content;
+}
+
+.img-half-screen-vertical img {
+	width: 100%;
+	height: auto;
+	opacity: 0.56;
+}
+
+.container-section-50 ul {
+	padding-inline-start: 20px;
+}
+
+.container-column-40 {
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+}
+
+.container-apply-logos-column {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+}
+
+.container-apply-logos {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 40px 0;
+}
+
+.container-apply-logos-hidden {
+	width: 27%;
+	min-width: 200px;
+	height: 2px;
+	margin: 20px 15px;	
+}
+
+.container-apply-logos img {
+	width: 27%;
+	min-width: 200px;
+	height: auto;
+	margin: 20px 15px;
+}
+
+.header-apply-logos {
+	margin-bottom: 20px;
+	font-size: 2rem;
+}
+
+.container-tools-logos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 0;
+}
+
+.container-tool-individual {
+	box-sizing: border-box;
+	margin: 20px 20px 40px 0;
+	width: 280px;
+	height: 280px;
+	box-sizing: border-box;
+	transform-style: preserve-3d;
+  	transform-origin: center right;
+	transition: transform 1s;
+}
+
+.div-hidden {
+	width: 280px;
+	height: 2px;
+	box-sizing: border-box;
+	margin: 20px 20px 40px 0;
+}
+
+.container-tool-individual-front {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	backface-visibility: hidden;
+	background-color: var(--white);
+	box-shadow: 5px 10px 18px var(--grey);
+    visibility: visible;
+}
+
+.container-tool-individual-front img {
+	position: absolute;
+	top: 50px;
+}
+
+.img-margin-more img {
+	position: absolute;
+	top: 80px;
+}
+
+.container-tool-individual-front h6 {
+	position: absolute;
+	bottom: 70px;
+}
+
+.container-tool-individual-front button {
+	position: absolute;
+	bottom: 30px;
+}
+
+.container-tool-individual-back {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	margin-top: -100%;
+	box-sizing: border-box;
+	backface-visibility: hidden;
+	background-color: var(--white);
+	box-shadow: 5px 10px 18px var(--grey);
+	padding: 5px 10px 0 10px;
+	transform: rotateY(180deg);
+  	transform: rotateX(-180deg);
+    visibility: hidden;
+}
+
+.container-tool-individual-back button {
+	position: absolute;
+	bottom: 10px;
+}
+
+.container-tool-individual.is-flipped {
+	transform: rotateX(-180deg);
+}
+
+.container-tool-individual.is-flipped .container-tool-individual-back {
+    visibility: visible;
+}
+
+.container-tool-individual.is-flipped .container-tool-individual-front {
+	transition-delay: 0.3s;
+    visibility: hidden;
+}
+
+.tools-logo {
+	width: 35%;
+	height: auto;	
+}
+
+.button-more {
+	border: 1px solid var(--red);
+	background-color: var(--white);
+	color: var(--red);
+	padding-bottom: 5px;
+}
+
+.caret-font-size {
+	font-size: 2rem;
+}
+
+.button-more:hover,
+.button-more:active {
+	background-color: var(--red);
+	color: var(--white);
+	border: 1px solid var(--dark-grey);
+}
+
+
+/* Timeline */
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+	position: relative;
+	max-width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.timeline p {
+	margin: 0;
+}
+
+.span-timeline-date {
+	font-weight: bold;
+	font-size: 1.7rem;
+	font-style: italic;
+	padding: 10px 0 0 0;
+}
+
+footer {
+	margin-top: -10px;
+}
+  
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+	content: '';
+	position: absolute;
+	width: 4px;
+	background-color: var(--red);
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -3px;
+	box-sizing: border-box;
+}
+  
+/* Container around timeline content */
+.container-timeline-section {
+	padding: 10px 40px;
+	position: relative;
+	background-color: inherit;
+	width: 50%;
+	box-sizing: border-box;
+	/* border: 2px solid var(--red); */
+}
+  
+/* The circles on the timeline */
+.container-timeline-section::after {
+	content: '';
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	right: -12px;
+	background-color: var(--white);
+	border: 4px solid var(--red);
+	top: 15px;
+	border-radius: 50%;
+	z-index: 1;
+	box-sizing: border-box;
+}
+  
+/* Place the container to the left */
+.timeline-left {
+	left: 0;
+	box-sizing: border-box;
+}
+  
+/* Place the container to the right */
+.timeline-right {
+	left: 50%;
+	box-sizing: border-box;
+}
+  
+/* Add arrows to the left container (pointing right) */
+.timeline-left::before {
+	content: " ";
+	height: 0;
+	position: absolute;
+	top: 22px;
+	width: 0;
+	z-index: 1;
+	right: 30px;
+	border: medium solid var(--red);
+	border-width: 10px 0 10px 10px;
+	border-color: transparent transparent transparent var(--red);
+	box-sizing: border-box;
+}
+  
+/* Add arrows to the right container (pointing left) */
+.timeline-right::before {
+	content: " ";
+	height: 0;
+	position: absolute;
+	top: 22px;
+	width: 0;
+	z-index: 1;
+	left: 30px;
+	border: medium solid var(--red);
+	border-width: 10px 10px 10px 0;
+	border-color: transparent var(--red) transparent transparent;
+	box-sizing: border-box;
+}
+  
+/* Fix the circle for containers on the right side */
+  .timeline-right::after {
+	left: -13px;
+	box-sizing: border-box;
+}
+  
+/* The actual content */
+.timeline-content {
+	padding: 20px;
+	position: relative;
+	/* border-radius: 6px; */
+	box-sizing: border-box;
+	border: 2px solid var(--red);
+	background-color: var(--white);
+}
+
+
+/* Mailchimp forms styling */
+/* Need to go back through following and take out unneccesary code after editing styling on form on 9/10 */
+.container-form-apply-rsvp {
+	width: 100%;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#mc_embed_signup {
+    font-family: "Lato", sans-serif;
+}
+
+.indicates-required {
+	width: 100%;
+	margin: 10px auto;
+	/* text-align: center; */
+	font-size: 1.7rem;
+}
+
+.mc-field-group {
+	width: 100%;
+	margin: 20px auto;
+}
+
+.mc-field-group label {
+	/* width: 35%; */
+	/* max-width: 35%; */
+	width: 100%;
+	/* text-align: right; */
+	text-align: left;
+	font-size: 1.7rem;
+}
+
+.mc-field-group input[type=text] {
+	width: 35%;
+	font-size: 1.7rem;
+	max-width: 300px;
+}
+
+.mc-field-group input[type=email] {
+	width: 50%;
+	font-size: 1.7rem;
+	max-width: 500px;
+}
+
+/* .mc-field-group.input-group {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+} */
+
+.mc-field-group.input-group ul {
+	list-style-type: none;
+	/* width: 50%; */
+	width: 100%;
+	padding: 0;
+}
+
+.mc-field-group.input-group li {
+	width: 100%;
+	padding-top: 0;
+}
+
+.mc-field-group.input-group input{
+	width: 10%;
+}
+
+.mc-field-group.input-group label{
+	width: 70%;
+	text-align: left;
+	font-size: 1.7rem;
+}
+
+.mc-field-group.input-group strong {
+	width: 35%;
+	text-align: right;
+	font-size: 1.7rem;
+}
+
+.container-form-apply-rsvp .clear {
+	display: flex;
+	flex-direction: row;
+}
+
+.container-form-apply-rsvp input[type=submit] {
+	/* align-self: center; */
+	margin: 5px 0 10px 0;
+	background-color: var(--red);
+	color: var(--white);
+	border: 1px solid var(--dark-grey);
+	padding: 5px 10px;
+	font-size: 2rem;
+}
+
+.container-form-apply-rsvp input[type=submit]:hover,
+.container-form-apply-rsvp input[type=submit]:active {
+	background-color: var(--white);
+	color: var(--red);
+	border: 1px solid var(--red);
+}
+
+.container-form-apply-rsvp p {
+	margin: 10px 0 15px 0;
+	margin-top: 10px;
+}
+
+/* Need to go back through following media queries and take out unneccesary code after editing styling on form on 9/10 */
+@media screen and (min-width: 1px) and (max-width: 520px) {
+	.container-form-apply-rsvp {
+		width: 100%;
+		align-self: flex-start;
+	}
+
+	.indicates-required {
+		margin: 10px auto;
+		text-align: left;
+	}
+	
+	.mc-field-group.input-group {
+		flex-direction: column;
+	}
+
+	.mc-field-group label {
+		width: 100%;
+		text-align: left;
+		font-size: 1.7rem;
+	}
+
+	.container-form-apply-rsvp h2 {
+		text-align: left;
+	}
+
+	.mc-field-group input[type=text] {
+		width: 60%;
+	}
+	
+	.mc-field-group input[type=email] {
+		width: 75%;
+	}
+
+	.mc-field-group.input-group strong{
+		width: 100%;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
+	.mc-field-group.input-group ul{
+		width: 100%;
+	}
+
+	.mc-field-group.input-group {
+		flex-direction: column;
+	}
+
+	.container-form-apply-rsvp input[type=submit] {
+		align-self: flex-start;
+		margin: 5px 0 10px 0;
+	}
+}
+
+@media screen and (min-width: 1px) and (max-width: 788px) {
+	.container-three-sections {
+		flex-direction: column;
+	}
+
+	.container-three-section {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.container-head {
+		flex-direction: column;
+		padding: 0px 20px 5px 20px;
+	}
+
+	.container-head span {
+		margin: 5px 0 0 0;
+	}
+
+	.container-three-sections {
+		padding: 5px 20px;
+	}
+
+	.container-section h5 {
+		text-align: center;
+	}
+
+	.ul-3-column,
+	.ul-2-column {
+		column-count: 1;
+	}
+}
+
+@media screen and (min-width: 645px) and (max-width: 909px) {
+	.container-head {
+		flex-direction: column;
+	}
+
+	.container-head span {
+		margin: 5px 0 0 0;
+	}
+
+	.container-section p,
+	.container-section li {
+		font-size: medium;
+	}
+
+	.ul-3-column {
+		column-count: 2;
+	}
+
+	.ul-2-column {
+		column-count: 1;
+	}
+
+	.ul-3-column li,
+	.ul-2-column li {
+		margin-right: 10px;
+	}
+}
+
+@media screen and (min-width: 1px) and (max-width: 767px) {
+	.container-apply-logos {
+		justify-content: center;
+	}
+
+	.container-apply-logos-hidden {
+		margin: 20px 45px;	
+	}
+	
+	.container-apply-logos img {
+		margin: 20px 45px;
+	}
+}
+
+@media screen and (min-width: 1px) and (max-width: 900px) {
+	.container-section-process {
+		width: 100%;
+	}
+
+	.img-half-screen-vertical {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 1px) and (max-width: 979px) {
+	.container-tools-logos {
+		justify-content: center;
+	}
+
+	.container-tool-individual {
+		margin: 20px 50px 40px 50px;
+	}
+
+	.div-hidden {
+		margin: 20px 50px 40px 50px;
+	}
+}
+
+@media screen and (min-width: 1px) and (max-width: 667px) {
+	.container-two-sections,
+	.container-one-section {
+		flex-direction: column;
+		padding: 5px 20px;
+	}
+
+	.container-section-50 {
+		max-width: 100%;
+		width: fit-content;
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+	.process-content {
+		width: fit-content;
+		max-width: 90%;
+	}
+
+	.process-step {
+		margin-right: 10px;
+		min-width: fit-content;
+		align-self: flex-start;
+	}
+	
+	.process-step-next {
+		margin-right: 10px;
+		min-width: fit-content;
+		align-self: flex-start;
+	}
+
+	.container-column-40 {
+		width: 100%;
+	}
+
+	.container-apply-logos-column {
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (min-width: 668px) and (max-width: 746px) {
+	.container-apply-logos img {
+		margin: 10px auto;
+	}
+}
+  
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+	/* Place the timelime to the left */
+	.timeline::after {
+	left: 31px;
+	}
+	
+	/* Full-width containers */
+	.container-timeline-section {
+	width: 100%;
+	padding-left: 70px;
+	padding-right: 25px;
+	}
+	
+	/* Make sure that all arrows are pointing leftwards */
+	.container-timeline-section::before {
+	left: 60px;
+	border: medium solid var(--red);
+	border-width: 10px 10px 10px 0;
+	border-color: transparent var(--red) transparent transparent;
+	}
+  
+	/* Make sure all circles are at the same spot */
+	.timeline-left::after, .timeline-right::after {
+	left: 15px;
+	}
+	
+	/* Make all right containers behave like the left ones */
+	.timeline-right {
+	left: 0%;
+	}
+}
+
+@media screen and (min-width: 1027px) and (max-width: 4000px) {
+	.container-head,
+	.container-three-sections,
+	.container-form-apply,
+	.container-two-sections,
+	.container-one-section,
+	.container-apply-logos-column {
+		box-sizing: border-box;
+		padding-left: 13%;
+		padding-right: 13%;
+	}	
 }
