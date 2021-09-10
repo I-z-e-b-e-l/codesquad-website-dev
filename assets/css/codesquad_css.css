@@ -1561,7 +1561,9 @@ footer {
 
 .indicates-required {
 	width: 100%;
-	margin: 10px auto;
+	/* margin: 10px auto; */
+	margin: 10px 0;
+	text-align: left;
 	/* text-align: center; */
 	font-size: 1.7rem;
 }
