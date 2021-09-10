@@ -1559,6 +1559,10 @@ footer {
     font-family: "Lato", sans-serif;
 }
 
+#mc_embed_signup .indicates-required {
+    text-align: left;
+}
+
 .indicates-required {
 	width: 100%;
 	/* margin: 10px auto; */
