@@ -1804,7 +1804,21 @@ footer {
 	}
 }
 
-@media screen and (min-width: 1px) and (max-width: 979px) {
+@media screen and (min-width: 1px) and (max-width: 450px) {
+	.container-tools-logos {
+		justify-content: center;
+	}
+
+	.container-tool-individual {
+		margin: 20px 0 40px 0;
+	}
+
+	.div-hidden {
+		margin: 20px 50px 40px 50px;
+	}
+}
+
+@media screen and (min-width: 451px) and (max-width: 979px) {
 	.container-tools-logos {
 		justify-content: center;
 	}

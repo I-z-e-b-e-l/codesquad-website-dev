@@ -15,14 +15,9 @@ let cardButtons = document.querySelectorAll('.button-more');
 
 for (let i = 0; i < cardButtons.length; i++) {
   cardButtons[i].addEventListener('click', toggleCards);
-  console.log(`the event listener added on ${cardButtons[i]}`)
-}
+};
 
 function toggleCards(e) {
   let divToChange = e.target.parentElement.parentElement;
-  console.log(divToChange);
   divToChange.classList.toggle('is-flipped');
-  console.log(`${e.target} was clicked`)
-}
-
-console.log('javascript working')
+};
