@@ -1524,7 +1524,7 @@ select {
 	box-sizing: border-box;
 }
   
-/* The actual content */
+/* The actual timeline content */
 .timeline-content {
 	padding: 20px;
 	position: relative;
@@ -1532,6 +1532,18 @@ select {
 	box-sizing: border-box;
 	border: 2px solid var(--red);
 	background-color: var(--white);
+}
+
+.container-donate-daf-widget {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 10px 0;
+}
+
+#dafdirectdiv {
+	-webkit-box-sizing: unset;
+	font-weight: unset;
 }
 
 @media screen and (min-width: 1px) and (max-width: 788px) {
