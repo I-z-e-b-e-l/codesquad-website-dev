@@ -15,9 +15,9 @@ let cardButtons = document.querySelectorAll('.button-more');
 
 for (let i = 0; i < cardButtons.length; i++) {
   cardButtons[i].addEventListener('click', toggleCards);
-}
+};
 
 function toggleCards(e) {
   let divToChange = e.target.parentElement.parentElement;
   divToChange.classList.toggle('is-flipped');
-}
+};
