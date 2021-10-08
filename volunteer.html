@@ -23,6 +23,25 @@
   <!-- Google Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '638029117122317');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=638029117122317&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -150,11 +169,11 @@
           <img class="card-img-float" src="assets/img/codeCoach.png" width="160" height="160">
           <p class="card-title">
             Talk about your career
-            <p class="card-text">
-              How did you get your start? Share the crazy story (or the careful planning) of how you arrived at your
-              current role. Some of our guest speakers are top experts in their field, and others are just starting out.
-              Our students want to understand the path you followed.
-            </p>
+          <p class="card-text">
+            How did you get your start? Share the crazy story (or the careful planning) of how you arrived at your
+            current role. Some of our guest speakers are top experts in their field, and others are just starting out.
+            Our students want to understand the path you followed.
+          </p>
         </div>
       </div> <!-- End of card -->
     </div> <!-- End of column -->
@@ -165,11 +184,11 @@
           <img class="card-img-float" src="assets/img/guestSpkr.png" width="160" height="160">
           <p class="card-title">
             Become a coding coach
-            <p class="card-text">
-              Help us teach a class, develop a pair-programming exercise or run a coding challenge. Our students need
-              help with Agile, testing, version control, technical interviewing and many other areas. Your experience
-              can really help.
-            </p>
+          <p class="card-text">
+            Help us teach a class, develop a pair-programming exercise or run a coding challenge. Our students need
+            help with Agile, testing, version control, technical interviewing and many other areas. Your experience
+            can really help.
+          </p>
         </div>
       </div> <!-- End of card -->
     </div> <!-- End of column -->
@@ -253,7 +272,7 @@
         Katherine Martinez<br />
         Heidi Martinez<br />
         Travis McGrath</p>
-      </div>
+    </div>
     <div class="col-sm-12 col-md-4 text-center">
       <p>
         Sherry Mei<br />
@@ -332,23 +351,21 @@
             </ul>
           </div>
           <div class="col-xs-12 col-md-2">
-						<p class="footerHead">
-							Join us on social media
-						</p>
-						<a href="http://www.facebook.com/CodeSquadOrg" target="_blank">
-							<img src="assets/img/Facebook-logo3.png" height="54" width="54" alt="Facebook logo">
-						</a>
-						<a href="https://www.linkedin.com/company/codesquad.org" target="_blank"><img
-								src="assets/img/LinkedInLogo.png" height="54" width="54" alt="LinkedIn logo"></a>
+            <p class="footerHead">
+              Join us on social media
+            </p>
+            <a href="http://www.facebook.com/CodeSquadOrg" target="_blank">
+              <img src="assets/img/Facebook-logo3.png" height="54" width="54" alt="Facebook logo">
+            </a>
+            <a href="https://www.linkedin.com/company/codesquad.org" target="_blank"><img
+                src="assets/img/LinkedInLogo.png" height="54" width="54" alt="LinkedIn logo"></a>
           </div>
 
         </div> <!-- End row -->
       </div> <!-- End container -->
     </div> <!-- End of <div> with position "relative" -->
     <div class="positionRel">
-      <p align="right">
-        Copyright &#169; CodeSquad 2018-2022.  All rights reserved.
-      </p>
+      <p align="right">Copyright &copy; CodeSquad 2018-2022. All rights reserved.</p>
     </div>
   </footer>
 

@@ -20,6 +20,25 @@
 	<!-- Google Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq) return; n = f.fbq = function () {
+				n.callMethod ?
+				n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+			n.queue = []; t = b.createElement(e); t.async = !0;
+			t.src = v; s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '638029117122317');
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=638029117122317&ev=PageView&noscript=1" /></noscript>
+	<!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -40,7 +59,7 @@
 				</button>
 				<a class="navbar-brand" href="index.html">
 					<!-- CodeSquad logo -->
-          <img alt="CodeSquad" src="assets/img/CodeSquad-website-logo.png">
+					<img alt="CodeSquad" src="assets/img/CodeSquad-website-logo.png">
 				</a>
 			</div>
 
@@ -57,8 +76,8 @@
 							<li><a href="#">The CodeSquad Story</a></li>
 							<li><a href="cohort.html">Spring 2018 Cohort</a></li>
 							<li><a href="cohort2019.html">Spring 2019 Cohort</a></li>
-              <li><a href="cohort2020.html">Spring 2020 Cohort</a></li>
-              <li><a href="cohort2021.html">Spring 2021 Cohort</a></li>
+							<li><a href="cohort2020.html">Spring 2020 Cohort</a></li>
+							<li><a href="cohort2021.html">Spring 2021 Cohort</a></li>
 							<li><a href="careers.html">Job Openings</a></li>
 						</ul>
 					</li>
@@ -273,7 +292,10 @@
 						<span class="card-subhead">Technical Advisor</span>
 					</div>
 					<p class="card-text center">
-						Will is a software developer with strengths in full-stack development and data engineering. His life's goal is to empower those around him through software. In 2017, Will received his bachelor's in computer science from Worcester Polytechnic Institute. In that same year Will began volunteering with CodeSquad, and has served in critical roles as classroom instructor, mentor and technical advisor.</p>
+						Will is a software developer with strengths in full-stack development and data engineering. His life's goal
+						is to empower those around him through software. In 2017, Will received his bachelor's in computer science
+						from Worcester Polytechnic Institute. In that same year Will began volunteering with CodeSquad, and has
+						served in critical roles as classroom instructor, mentor and technical advisor.</p>
 				</div> <!-- End of JAS card -->
 			</div> <!-- End of JAS column -->
 		</div> <!-- End second row -->
@@ -327,7 +349,7 @@
 							<li><a href="donate.html">Donate</a></li>
 						</ul>
 					</div>
-          <div class="col-xs-12 col-md-2">
+					<div class="col-xs-12 col-md-2">
 						<p class="footerHead">
 							Join us on social media
 						</p>
@@ -336,14 +358,12 @@
 						</a>
 						<a href="https://www.linkedin.com/company/codesquad.org" target="_blank"><img
 								src="assets/img/LinkedInLogo.png" height="54" width="54" alt="LinkedIn logo"></a>
-          </div>
+					</div>
 				</div> <!-- End row -->
 			</div> <!-- End container -->
 		</div> <!-- End of <div> with position "relative" -->
 		<div class="positionRel">
-			<p align="right">
-				Copyright &#169; CodeSquad 2018-2021. All rights reserved.
-			</p>
+			<p align="right">Copyright &copy; CodeSquad 2018-2022. All rights reserved.</p>
 		</div>
 	</footer>
 
