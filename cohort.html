@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-9379866-2"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9379866-2"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'UA-9379866-2');
   </script>
@@ -12,12 +14,31 @@
     Spring 2018 Cohort
   </title>
   <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/lib/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/lib/bootstrap.min.css">
   <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/codesquad_css.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/codesquad_css.css">
   <!-- Google Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '638029117122317');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=638029117122317&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -29,7 +50,8 @@
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -37,7 +59,7 @@
         </button>
         <a class="navbar-brand" href="index.html">
           <!-- CodeSquad logo -->
-          <img alt="CodeSquad" src="assets/img/logo_navbar.gif" width="140" height="59">
+          <img alt="CodeSquad" src="assets/img/CodeSquad-website-logo.png">
         </a>
       </div>
 
@@ -48,24 +70,27 @@
           <li><a href="businesses.html">For businesses</a></li>
           <li><a href="students.html">For students</a></li>
           <li class="dropdown active">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span><span class="sr-only">(current)</span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">About Us <span class="caret"></span><span class="sr-only">(current)</span></a>
             <ul class="dropdown-menu" id="cohortDropdown">
               <li><a href="about-us.html">The CodeSquad Story</a></li>
               <li><a href="#">Spring 2018 Cohort</a></li>
               <li><a href="cohort2019.html">Spring 2019 Cohort</a></li>
               <li><a href="cohort2020.html">Spring 2020 Cohort</a></li>
+              <li><a href="cohort2021.html">Spring 2021 Cohort</a></li>
               <li><a href="careers.html">Job Openings</a></li>
             </ul>
           </li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get involved <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Get involved <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="volunteer.html">Volunteer</a></li>
-              <li><a href="businesses.html">Host a CodeSquad intern</a></li>
-              <li><a href="apply.html">Apply to CodeSquad</a></li>
+							<li><a href="students.html">Become a developer</a></li>
+							<li><a href="businesses.html">Host a CodeSquad intern</a></li>
+							<li><a href="volunteer.html">Volunteer</a></li>
             </ul>
           </li>
-					<li><a href="donate.html">Donate</a></li>
+          <li><a href="donate.html">Donate</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -74,13 +99,13 @@
 
   <!-- Main banner section -->
   <div class="positionRel">
-  	<img src="assets/img/Grad2018_057.jpg" width="1920" class="img-responsive center-block">
+    <img src="assets/img/Grad2018_057.jpg" width="1920" class="img-responsive center-block">
     <div class="headlineTxt headlineTxtCohort mobileHide">
       Spring 2018 Cohort
     </div>
   </div>
   <div class="red-bar">
-  	<div class="mobileShow">
+    <div class="mobileShow">
       Spring 2018 Cohort
     </div>
     <div class="mobileHide">
@@ -89,128 +114,183 @@
   </div>
   <div>
     <img src="assets/img/arrow.png" width="65" height="40" class="img-responsive center-block">
-  </div> 
-  
-    <div class="container">
+  </div>
+
+  <div class="container">
     <h1 class="center">
       2018 CodeSquad Spring Cohort
     </h1>
-  <div class="row center">
-  <div class="col-lg-3 col-md-6 col-xs-12"><a href="http://www.irvingangulo.com" target="_blank"><img class="card-img-top" src="assets/img/irvi20189702.jpeg" alt="student photo"></a><figcaption class="row text-center text-lg-left"><a href="http://www.irvingangulo.com" target="_blank">Irving Angulo</a></figcaption></div>
-  <div class="col-lg-3 col-md-6 col-xs-12"><img class="card-img-top" src="assets/img/n20189744.jpeg" alt="student photo" ><figcaption class="row text-center text-lg-left">Ninon Becquart</figcaption></div>
-  <div class="col-lg-3 col-md-6 col-xs-12"><img class="card-img-top" src="assets/img/woman-missing3.jpg" alt="student photo" ><figcaption class="row text-center text-lg-left">Melissa Cruz</figcaption></div>
-  <div class="col-lg-3 col-md-6 col-xs-12"><img class="card-img-top" src="assets/img/cl20189859.jpeg" alt="student photo" ><figcaption class="row text-center text-lg-left">Clydies Freeman</figcaption></div>
-</div>
- <div class="row center">
-  <div class="col-lg-3 col-md-6 col-xs-12"><img class="card-img-top" src="assets/img/amber20189765.jpg" alt="student photo" ><figcaption class="row text-center text-lg-left">Amber Hampton</figcaption></div>
-  <div class="col-lg-3 col-md-6 col-xs-12"><img class="card-img-top" src="assets/img/ang20189776.jpeg" alt="student photo" ><figcaption class="row text-center text-lg-left">Angel Juarbe</figcaption></div>
- <div class="col-lg-3 col-md-6 col-xs-12"><img class="card-img-top" src="assets/img/sydney20189726.jpeg" alt="student photo"  ><figcaption class="row text-center text-lg-left">Sydney Kinchen</figcaption></div>
- <div class="col-lg-3 col-md-6 col-xs-12"><a href="https://www.linkedin.com/in/jasen-lambright-mba-2133385" target="_blank"><img class="card-img-top" src="assets/img/ja20189787b.jpeg" alt="student photo" ></a><figcaption class="row text-center text-lg-left"><a href="https://www.linkedin.com/in/jasen-lambright-mba-2133385" target="_blank">Jasen Lambright</a></figcaption></div>
-</div>
-<div class="row center">
-  <div class="col-lg-3 col-md-6 col-xs-12"><img class="card-img-top" src="assets/img/ayana20189815.jpeg" alt="student photo" ><figcaption class="row text-center text-lg-left">Ayana Murakami-Freeberg</figcaption></div>
-  <div class="col-lg-3 col-md-6 col-xs-12"><a href="https://www.linkedin.com/in/jenniferrecinos" target="_blank"><img class="card-img-top" src="assets/img/jennrec.jpeg" alt="student photo" ></a><figcaption class="row text-center text-lg-left"><a href="https://www.linkedin.com/in/jenniferrecinos" target="_blank">Jennifer Recinos</a></figcaption></div>
-  <div class="col-lg-3 col-md-6 col-xs-12"><a href="https://reverent-swartz-086191.netlify.com" target="_blank"><img class="card-img-top" src="assets/img/is20189867.jpeg" alt="student photo" ></a><figcaption class="row text-center text-lg-left"><a href="https://reverent-swartz-086191.netlify.com" target="_blank">Isaiah Vertus</a></figcaption></div>
-  <div class="col-lg-3 col-md-6 col-xs-12"><a href="http://linkedin.com/in/michellevonvogler" target="_blank"><img class="card-img-top" src="assets/img/mic20189730.jpeg" alt="student photo"  ></a><figcaption class="row text-center text-lg-left"><a href="http://linkedin.com/in/michellevonvogler" target="_blank">Michelle von Vogler</a></figcaption></div></div>
+    <div class="row center">
+      <div class="col-lg-3 col-md-6 col-xs-12"><a href="http://www.irvingangulo.com" target="_blank"><img
+            class="card-img-top" src="assets/img/irvi20189702.jpeg" alt="student photo"></a>
+        <figcaption class="row text-center text-lg-left"><a href="http://www.irvingangulo.com" target="_blank">Irving
+            Angulo</a></figcaption>
+      </div>
+      <div class="col-lg-3 col-md-6 col-xs-12"><img class="card-img-top" src="assets/img/n20189744.jpeg"
+          alt="student photo">
+        <figcaption class="row text-center text-lg-left">Ninon Becquart</figcaption>
+      </div>
+      <div class="col-lg-3 col-md-6 col-xs-12"><img class="card-img-top" src="assets/img/woman-missing3.jpg"
+          alt="student photo">
+        <figcaption class="row text-center text-lg-left">Melissa Cruz</figcaption>
+      </div>
+      <div class="col-lg-3 col-md-6 col-xs-12"><img class="card-img-top" src="assets/img/cl20189859.jpeg"
+          alt="student photo">
+        <figcaption class="row text-center text-lg-left">Clydies Freeman</figcaption>
+      </div>
+    </div>
+    <div class="row center">
+      <div class="col-lg-3 col-md-6 col-xs-12"><img class="card-img-top" src="assets/img/amber20189765.jpg"
+          alt="student photo">
+        <figcaption class="row text-center text-lg-left">Amber Hampton</figcaption>
+      </div>
+      <div class="col-lg-3 col-md-6 col-xs-12"><img class="card-img-top" src="assets/img/ang20189776.jpeg"
+          alt="student photo">
+        <figcaption class="row text-center text-lg-left">Angel Juarbe</figcaption>
+      </div>
+      <div class="col-lg-3 col-md-6 col-xs-12"><img class="card-img-top" src="assets/img/sydney20189726.jpeg"
+          alt="student photo">
+        <figcaption class="row text-center text-lg-left">Sydney Kinchen</figcaption>
+      </div>
+      <div class="col-lg-3 col-md-6 col-xs-12"><a href="https://www.linkedin.com/in/jasen-lambright-mba-2133385"
+          target="_blank"><img class="card-img-top" src="assets/img/ja20189787b.jpeg" alt="student photo"></a>
+        <figcaption class="row text-center text-lg-left"><a
+            href="https://www.linkedin.com/in/jasen-lambright-mba-2133385" target="_blank">Jasen Lambright</a>
+        </figcaption>
+      </div>
+    </div>
+    <div class="row center">
+      <div class="col-lg-3 col-md-6 col-xs-12"><img class="card-img-top" src="assets/img/ayana20189815.jpeg"
+          alt="student photo">
+        <figcaption class="row text-center text-lg-left">Ayana Murakami-Freeberg</figcaption>
+      </div>
+      <div class="col-lg-3 col-md-6 col-xs-12"><a href="https://www.linkedin.com/in/jenniferrecinos"
+          target="_blank"><img class="card-img-top" src="assets/img/jennrec.jpeg" alt="student photo"></a>
+        <figcaption class="row text-center text-lg-left"><a href="https://www.linkedin.com/in/jenniferrecinos"
+            target="_blank">Jennifer Recinos</a></figcaption>
+      </div>
+      <div class="col-lg-3 col-md-6 col-xs-12"><a href="https://reverent-swartz-086191.netlify.com" target="_blank"><img
+            class="card-img-top" src="assets/img/is20189867.jpeg" alt="student photo"></a>
+        <figcaption class="row text-center text-lg-left"><a href="https://reverent-swartz-086191.netlify.com"
+            target="_blank">Isaiah Vertus</a></figcaption>
+      </div>
+      <div class="col-lg-3 col-md-6 col-xs-12"><a href="http://linkedin.com/in/michellevonvogler" target="_blank"><img
+            class="card-img-top" src="assets/img/mic20189730.jpeg" alt="student photo"></a>
+        <figcaption class="row text-center text-lg-left"><a href="http://linkedin.com/in/michellevonvogler"
+            target="_blank">Michelle von Vogler</a></figcaption>
+      </div>
+    </div>
 
-</div>
-<br>
-  
-<!-- Begin Slanted Boxes -->
+  </div>
+  <br>
+
+  <!-- Begin Slanted Boxes -->
   <div class="row rowBlk">
-  <div class="col-sm-4 slantBoxRed maxHeight">
-    <h5 class="center">
-      &quot;I always wanted to work in the tech industry, but I never had the confidence, time or money. CodeSquad supported me and I am proud to be a graduate.&quot;
-    </h5>
-    <p class="width80 center">
-      - Student from Spring 2018 Cohort
-    </p>
-    <a href="https://forms.gle/eBCjRoBsTKy6ZwmH8" target="_blank">
-      <button class="btnWht joinUsBtn">
-        <span id="btn1stLine">Register</span><br />
-        <span id="btn2ndLine">for our next event</span>
-      </button>
-    </a>
-  </div>
-  <div class="col-sm-4 slantStudent maxHeight">
-    <div class="redSlant2"></div>
-    <div class="blackSlant2"></div>
-  </div>
-  <div class="col-sm-4 slantBoxBlk maxHeight">
-    <h3 class="center">
-      Join us on Facebook
-    </h3>
-    <p class="width80 center">
-      Visit us at <a href="http://www.facebook.com/CodeSquadOrg">facebook.com/CodeSquadOrg</a> for events and updates.
-    </p>
-    <a href="http://www.facebook.com/CodeSquadOrg">
-      <button class="FBbutton">
-        <img src="assets/img/fb-logo.png" height="54" width="54" alt="Facebook logo">
-        Check it out
-      </button>
-    </a>
-  </div>
-</div> <!-- End of "row" -->
-<!-- End Slanted Boxes -->
+    <div class="col-sm-4 slantBoxRed maxHeight">
+      <h5 class="center">
+        &quot;I always wanted to work in the tech industry, but I never had the confidence, time or money. CodeSquad
+        supported me and I am proud to be a graduate.&quot;
+      </h5>
+      <p class="width80 center">
+        - Student from Spring 2018 Cohort
+      </p>
+      <a href="https://forms.gle/eBCjRoBsTKy6ZwmH8" target="_blank">
+        <button class="btnWht joinUsBtn">
+          <span id="btn1stLine">Register</span><br />
+          <span id="btn2ndLine">for our next event</span>
+        </button>
+      </a>
+    </div>
+    <div class="col-sm-4 slantStudent maxHeight">
+      <div class="redSlant2"></div>
+      <div class="blackSlant2"></div>
+    </div>
+    <div class="col-sm-4 slantBoxBlk maxHeight">
+      <h3 class="center">
+        Join us on Facebook
+      </h3>
+      <p class="width80 center">
+        Visit us at <a href="http://www.facebook.com/CodeSquadOrg">facebook.com/CodeSquadOrg</a> for events and updates.
+      </p>
+      <a href="http://www.facebook.com/CodeSquadOrg">
+        <button class="FBbutton">
+          <img src="assets/img/fb-logo.png" height="54" width="54" alt="Facebook logo">
+          Check it out
+        </button>
+      </a>
+    </div>
+  </div> <!-- End of "row" -->
+  <!-- End Slanted Boxes -->
 
-<!-- Begin page footer -->
-<footer>
-  <div class="positionRel footerFont footerBak">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-md-2 col-md-offset-1">
-          <div class="footerLogo"></div>
-          CodeSquad is a nonprofit organization that trains talented adults from low-income families to become full-stack developers and launch a new career.
-        </div>
-        <div class="col-xs-12 col-md-2">
-          <p class="footerHead">
-            Quick Links
-          </p>
-          <ul class="momentumUL">
-            <li><a href="index.html">What we do</a></li>
-            <li><a href="businesses.html">For businesses</a></li>
-            <li><a href="students.html">For students</a></li>
-            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              About Us<span class="caret"></span>
+  <!-- Begin page footer -->
+  <footer>
+    <div class="positionRel footerFont footerBak">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-md-2 col-md-offset-1">
+            <div class="footerLogo"></div>
+            CodeSquad is a nonprofit organization that trains talented adults from low-income families to become
+            full-stack developers and launch a new career.
+          </div>
+          <div class="col-xs-12 col-md-2">
+            <p class="footerHead">
+              Quick Links
+            </p>
+            <ul class="momentumUL">
+              <li><a href="index.html">What we do</a></li>
+              <li><a href="businesses.html">For businesses</a></li>
+              <li><a href="students.html">For students</a></li>
+              <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">
+                  About Us<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" id="cohortDropdown">
+                  <li><a href="about-us.html">The CodeSquad Story</a></li>
+                  <li><a href="#">Spring 2018 Cohort</a></li>
+                  <li><a href="cohort2019.html">Spring 2019 Cohort</a></li>
+                  <li><a href="cohort2020.html">Spring 2020 Cohort</a></li>
+                  <li><a href="cohort2021.html">Spring 2021 Cohort</a></li>
+                  <li><a href="careers.html">Job Openings</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">
+                  Get involved<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="students.html">Become a developer</a></li>
+                  <li><a href="businesses.html">Host a CodeSquad intern</a></li>
+                  <li><a href="volunteer.html">Volunteer</a></li>
+                </ul>
+              </li>
+              <li><a href="donate.html">Donate</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-2">
+            <p class="footerHead">
+              Join us on social media
+            </p>
+            <a href="http://www.facebook.com/CodeSquadOrg" target="_blank">
+              <img src="assets/img/Facebook-logo3.png" height="54" width="54" alt="Facebook logo">
             </a>
-              <ul class="dropdown-menu" id="cohortDropdown">
-                <li><a href="about-us.html">The CodeSquad Story</a></li>
-                <li><a href="#">Spring 2018 Cohort</a></li>
-                <li><a href="cohort2019.html">Spring 2019 Cohort</a></li>
-                <li><a href="careers.html">Job Openings</a></li>
-              </ul>
-            </li>
-            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                Get involved<span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="volunteer.html">Volunteer</a></li>
-                <li><a href="businesses.html">Host a CodeSquad intern</a></li>
-                <li><a href="apply.html">Apply to CodeSquad</a></li>
-              </ul>
-            </li>
-            <li><a href="donate.html">Donate</a></li>
-          </ul>
-        </div>
-        <div class="col-xs-12 col-md-2">
-          <p class="footerHead">Join us on Facebook</p>
-          <a href="http://www.facebook.com/CodeSquadOrg" target="_blank">
-            <img src="assets/img/fb-logo.png" height="54" width="54" alt="Facebook logo">
-          </a>
-        </div>
-      </div>  <!-- End row -->
-    </div> <!-- End container -->
-  </div> <!-- End of <div> with position "relative" -->
-  <div class="positionRel">
-    <p align="right">Copyright &#169; CodeSquad 2018-2020.  All rights reserved.</p>
-  </div>
-</footer>
+            <a href="https://www.linkedin.com/company/codesquad.org" target="_blank"><img
+                src="assets/img/LinkedInLogo.png" height="54" width="54" alt="LinkedIn logo"></a>
+          </div>
+
+        </div> <!-- End row -->
+      </div> <!-- End container -->
+    </div> <!-- End of <div> with position "relative" -->
+    <div class="positionRel">
+      <p align="right">Copyright &copy; CodeSquad 2018-2022. All rights reserved.</p>
+    </div>
+  </footer>
 
 
   <!-- jQuery link & Bootstrap JS link -->
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="assets/js/lib/bootstrap.min.js" type="text/javascript"></script>
 
 </body>
+
 </html>
