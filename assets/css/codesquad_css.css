@@ -217,9 +217,9 @@ ul li ul li {
 
 .donateBak {
 	background: url("../img/Dudley2Kendall.png");
-	background-size: 100% auto;
-	/* background-position: center top; */
-	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+  padding-bottom: 3em;
 }
 
 .donateBlurb {
@@ -286,6 +286,7 @@ ul li ul li {
 	background: url("../img/blackBak.png");
 	background-size: cover;
 	background-repeat: repeat;
+  padding-bottom: 2em;;
 }
 
 .footerLogo {
@@ -1561,6 +1562,25 @@ footer {
 	-webkit-box-sizing: unset;
 	font-weight: unset;
 }
+
+/* Mailchimp Newsletter */
+
+#mc_embed_signup  {
+  background: transparent;
+  clear:left; 
+  width: 100%;
+  max-width:600px;
+}
+
+#mc_embed_signup h2 {
+  color: #fff !important;
+}
+
+#mc_embed_signup .button {
+  background-color: rgb(203, 53, 36) !important;
+  border-radius: 0 !important;
+}
+
 
 @media screen and (min-width: 1px) and (max-width: 788px) {
 	.container-three-sections {
